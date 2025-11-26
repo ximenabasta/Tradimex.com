@@ -1,0 +1,110 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background:  #FFF8E1;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color:#8C3B2A;
+  color: #e9dede;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Marcellus', serif;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 3rem;
+}
+
+.producto {
+  background-color: #90c2ee;
+  border-radius: 15px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+.producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.producto h2 {
+  font-family: 'Marcellus', serif;
+  color: #000000;
+  margin: 1rem 0 0.3rem;
+}
+
+.producto p {
+  font-size: 0.95rem;
+  color: #0c0b0b;
+  margin: 0 1rem 1rem;
+  line-height: 1.4;
+}
+
+.producto span {
+  display: block;
+  font-weight: bold;
+  color: #020202;
+  margin-bottom: 1rem;
+}
+
+
+/* Bloque de música */
+.musica {
+  text-align: center;
+  background-color:#8C3B2A;
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin: 2rem auto;
+  width: 80%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.musica p {
+  font-family: 'Marcellus', serif;
+  color: #fff0f0;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Estilo para el reproductor */
+.musica audio {
+  width: 250px;
+  accent-color:#F9A825; /* cambia el color del control */
+  filter: drop-shadow(0 3px 6px rgba(0,0,0,0.3));
+  border-radius: 30px;
+}
+
+
+.final {
+  background-color: #636F42;
+  color: #fff8e7;
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}

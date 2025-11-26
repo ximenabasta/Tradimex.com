@@ -1,0 +1,560 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#E9DDBF; 
+}
+
+.shadow {
+  display: flex;
+  align-items: center; 
+  background-color:#C9876A; 
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.shadow h1 {
+   margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+.shadow{
+        box-shadow:0 4px 8px rgba(0, 0, 0, 0.1) ;
+}
+.container-logo{
+    height: 60px;
+    width: 60px;
+}
+.container-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+.musica {
+  text-align: center;
+  background-color: #A3B47B;
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin: 2rem auto;
+  width: 80%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.musica p {
+  font-family: 'Marcellus', serif;
+  color: #000000;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+
+.musica audio {
+  width: 250px;
+  accent-color: #b42f18; 
+  filter: drop-shadow(0 3px 6px rgba(0,0,0,0.3));
+  border-radius: 30px;
+}
+
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #25D366;
+  padding: 10px 16px;
+  border-radius: 40px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px; 
+  transition: .3s;
+  box-shadow: 0 3px 8px rgba(0,0,0,.25);
+  width: fit-content; 
+  margin: 20px auto 0; 
+}
+
+.whatsapp-button img {
+  width: 22px;  
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.05);
+}
+
+
+.container {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 800px;
+  background-color: #A3B47B;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.container h1 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto 20px;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.qr-section {
+ 
+  display: block;     
+  text-align: center;
+}
+
+.qr-section h2 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.qr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff4e1;
+  border-radius: 15px;
+  padding: 20px;
+  width: fit-content;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.qr-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+.qr-container img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.qr-container p {
+  font-size: 0.95rem;
+  color: #444;
+  margin: 0;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url('assets/1.-Fiestas-de-México.jpg'); 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.4); 
+  padding: 40px 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+.hero-overlay p {
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #333;
+}
+
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+main h2 {
+  font-size: 2.2rem;
+  color: white;
+  text-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+  margin-bottom: 1rem;
+}
+
+main p {
+  max-width: 600px;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.final {
+  text-align: center;
+  background-color: #A3B47B;
+  color: #333;
+  padding: 20px;
+  font-size: 14px;
+
+  margin-top: 50px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);}
+
+  .chatbot-container {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 320px;
+  height: 420px;
+  background: #fffdf7;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transform: translateY(calc(100% - 50px));
+  transition: transform 0.4s ease;
+  z-index: 999;
+}
+
+.chatbot-container.open {
+  transform: translateY(0);
+}
+
+.chat-header {
+  background-color: #D87093;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.chat-body {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.user-message,
+.bot-message {
+  padding: 8px 10px;
+  border-radius: 10px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.user-message {
+  align-self: flex-end;
+  background-color: #0084ff;
+  color: #fff;
+}
+
+.bot-message {
+  align-self: flex-start;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.chat-input-area {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+#chat-input {
+  flex: 1;
+  border: none;
+  padding: 8px;
+  outline: none;
+}
+
+#chat-send {
+  background-color: #D87093;
+  color: white;
+  border: none;
+  padding: 0 15px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#chat-send:hover {
+  background-color: #c65f83;
+}
+
+.marco-mexicano {
+  position: relative;
+  width: 80%;            
+  max-width: 900px;      
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 25px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 5px 30px rgba(0,0,0,0.25);
+  text-align: center;
+}
+
+.marco-borde {
+  position: absolute;
+  inset: 0;
+  border: 12px solid transparent;
+  border-image: linear-gradient(45deg,
+      #ff3b3b,
+      #ff8c00,
+      #ffd000,
+      #00c853,
+      #0091ea,
+      #7c4dff,
+      #ff3b3b
+  ) 1;
+  border-radius: 25px;
+  animation: colores 6s infinite linear;
+}
+
+@keyframes colores {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+.marco-mexicano video {
+  width: 100%;
+  border-radius: 15px;
+  max-height: 500px;    
+}
+
+.marco-titulo {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  font-family: "Georgia", serif;
+  letter-spacing: 1px;
+}
+
+
+
+.hero-overlay {
+  background: rgba(240, 199, 234, 0.5);
+  color: rgb(0, 0, 0);
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+/* SECCIÓN DEL VIDEO */
+.video-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  background-color: #f8f8f8; /* puedes cambiar el color */
+}
+
+.video-container {
+  width: 90%;
+  max-width: 800px; /* tamaño máx del video */
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 15px;       /* esquinas redondeadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombrita bonita */
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.marco-mexicano {
+  margin: 40px auto;
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+}
+
+.marco-borde {
+  border: 10px solid #cc0000;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.marco-titulo {
+  color: #b30000;
+  font-size: 24px;
+  margin-top: 10px;
+}
+.carousel {
+    width: 800px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 4px solid #d4af37;
+    background: white;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.carousel-container {
+    width: 600px;
+    margin: 0 auto;      
+    text-align: center;  
+}
+  .carousel {
+    width: 600px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    position: relative;
+  }
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  .carousel-track img {
+    width: 600px;
+    flex-shrink: 0;
+    user-select: none;
+  }
+
+  .btn-prev, .btn-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.4);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    line-height: 1;
+  }
+  .btn-prev:hover, .btn-next:hover {
+    background-color: rgba(0,0,0,0.7);
+  }
+  .btn-prev {
+    left: 15px;
+  }
+  .btn-next {
+    right: 15px;
+  }
+
+  .carousel-dots {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .carousel-dots button {
+    background-color: #bbb;
+    border: none;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    margin: 0 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+  }
+  .carousel-dots button.active {
+    background-color: #717171;
+  }
+  .carousel-dots button:hover {
+    background-color: #999;
+  }
+
+.fila-contenido {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px; 
+  margin-top: 40px;
+  flex-wrap: wrap; 
+}
+
+.veloso-section {
+  max-width: 900px;
+  margin: 40px auto;
+  background:  #A3B47B;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  border-left: 8px solid #f1d6d6;
+}
+
+.veloso-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.veloso-section h3 {
+  margin-top: 25px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.veloso-section ul {
+  margin-left: 20px;
+  list-style: "🌼 ";
+  font-size: 17px;
+}
+
+.veloso-section p {
+  font-size: 17px;
+  line-height: 1.6;
+}

@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7efe6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background: #79a573;
+  color: white;
+  padding: 30px 20px;
+  border-bottom: 4px solid #A86A54;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  text-align: center;
+  border-left: 6px solid #eb7869;
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #C9876A;
+}
+
+.card p, .card a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+  color: #A86A54;
+}

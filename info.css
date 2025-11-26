@@ -1,0 +1,174 @@
+/* Sección informativa */
+body{
+    background-color: #fcc885;
+}
+.infomm{
+    display: flex;
+  align-items: center; 
+  background-color:#D87093; 
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.musica {
+  text-align: center;
+  background-color: #f5d5a1;
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin: 2rem auto;
+  width: 80%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.musica p {
+  font-family: 'Marcellus', serif;
+  color: #b42f18;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+
+.musica audio {
+  width: 250px;
+  accent-color: #b42f18; /* cambia el color del control */
+  filter: drop-shadow(0 3px 6px rgba(0,0,0,0.3));
+  border-radius: 30px;
+}
+
+.info {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #fcd0f6;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  line-height: 1.6;
+}
+
+.info h2 {
+  color: #390050;
+  font-family: 'Marcellus', serif;
+  margin-top: 1.5rem;
+}
+
+.info p, .info ul {
+  font-size: 1rem;
+  color: #333;
+}
+
+.info ul {
+  list-style-type: "🌼 ";
+  padding-left: 1.2rem;
+}
+
+.volver {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.volver a {
+  background-color: #fcadf5;
+  color: #fffaf0;
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 25px;
+  transition: background 0.3s ease;
+}
+
+.volver a:hover {
+  background-color: #8e2312;
+}
+footer{
+text-align: center;
+  background-color: #D87093;
+  color: #110d0d;
+  padding: 20px;
+  font-size: 14px;
+
+  margin-top: 50px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);}
+.imagen-principal img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+  border-bottom: 5px solid #d8572a;
+}
+
+/* Imágenes laterales (flotan en medio del texto) */
+.imagen-lateral {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.imagen-lateral img {
+  width: 80%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Imagen central grande (por ejemplo, el altar) */
+.imagen-central {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.imagen-central img {
+  width: 90%;
+  max-width: 700px;
+  border-radius: 15px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  border: 3px solid #ffb347;
+}
+
+.marco-mexicano {
+  position: relative;
+  width: 80%;            
+  max-width: 900px;      
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 25px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 5px 30px rgba(0,0,0,0.25);
+  text-align: center;
+}
+
+.marco-borde {
+  position: absolute;
+  inset: 0;
+  border: 12px solid transparent;
+  border-image: linear-gradient(45deg,
+      #ff3b3b,
+      #ff8c00,
+      #ffd000,
+      #00c853,
+      #0091ea,
+      #7c4dff,
+      #ff3b3b
+  ) 1;
+  border-radius: 25px;
+  animation: colores 6s infinite linear;
+}
+
+@keyframes colores {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+.marco-mexicano video {
+  width: 100%;
+  border-radius: 15px;
+  max-height: 500px;    
+}
+
+.marco-titulo {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  font-family: "Georgia", serif;
+  letter-spacing: 1px;
+}
